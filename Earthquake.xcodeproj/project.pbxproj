@@ -11,6 +11,8 @@
 		0657331B2B19C75F00F2B92A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657331A2B19C75F00F2B92A /* ContentView.swift */; };
 		0657331D2B19C76000F2B92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0657331C2B19C76000F2B92A /* Assets.xcassets */; };
 		065733202B19C76000F2B92A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0657331F2B19C76000F2B92A /* Preview Assets.xcassets */; };
+		065733282B19C78100F2B92A /* Quake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065733272B19C78100F2B92A /* Quake.swift */; };
+		0657332A2B19C7B300F2B92A /* QuakeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065733292B19C7B300F2B92A /* QuakeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0657331A2B19C75F00F2B92A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0657331C2B19C76000F2B92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0657331F2B19C76000F2B92A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		065733272B19C78100F2B92A /* Quake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quake.swift; sourceTree = "<group>"; };
+		065733292B19C7B300F2B92A /* QuakeError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuakeError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 		065733172B19C75F00F2B92A /* Earthquake */ = {
 			isa = PBXGroup;
 			children = (
+				065733262B19C76F00F2B92A /* Model */,
 				065733182B19C75F00F2B92A /* EarthquakeApp.swift */,
 				0657331A2B19C75F00F2B92A /* ContentView.swift */,
 				0657331C2B19C76000F2B92A /* Assets.xcassets */,
@@ -65,6 +70,15 @@
 				0657331F2B19C76000F2B92A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		065733262B19C76F00F2B92A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				065733272B19C78100F2B92A /* Quake.swift */,
+				065733292B19C7B300F2B92A /* QuakeError.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0657332A2B19C7B300F2B92A /* QuakeError.swift in Sources */,
 				0657331B2B19C75F00F2B92A /* ContentView.swift in Sources */,
+				065733282B19C78100F2B92A /* Quake.swift in Sources */,
 				065733192B19C75F00F2B92A /* EarthquakeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
