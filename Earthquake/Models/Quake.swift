@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Quake: Identifiable {
+struct Quake {
     let magnitude: Double
     let place: String
     let time: Date
@@ -15,7 +15,7 @@ struct Quake: Identifiable {
     let detail: URL
 }
 
-extension Quake: Identifiable {
+extension Quake {
     var id: String { code }
 }
 
