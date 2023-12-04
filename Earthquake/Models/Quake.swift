@@ -15,7 +15,7 @@ struct Quake {
     let detail: URL
 }
 
-extension Quake {
+extension Quake: Identifiable {
     var id: String { code }
 }
 
