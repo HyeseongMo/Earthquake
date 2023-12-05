@@ -22,33 +22,33 @@ extension Quakes {
                 }
             }
         }
-//        ToolbarItem(placement: .navigationBarTrailing) {
-//            EditButton(editMode: $editMode) {
-//                selection.removeAll()
-//                editMode = .inactive
-//                selectMode = .inactive
-//            }
-//        }
-//        ToolbarItemGroup(placement: .bottomBar) {
-//            RefreshButton {
-//                Task {
-//                    await fetchQuakes()
-//                }
-//            }
-//            Spacer()
-//            ToolbarStatus(
-//                isLoading: isLoading,
-//                lastUpdated: lastUpdated,
-//                quakesCount: provider.quakes.count
-//            )
-//            Spacer()
-//            if editMode == .active {
-//                DeleteButton {
-//                    deleteQuakes(for: selection)
-//                }
-//                .disabled(isLoading || selection.isEmpty)
-//            }
-//        }
+        ToolbarItem(placement: .navigationBarTrailing) {
+            EditButton(editMode: $editMode) {
+                selection.removeAll()
+                editMode = .inactive
+                selectMode = .inactive
+            }
+        }
+        ToolbarItemGroup(placement: .bottomBar) {
+            RefreshButton {
+                Task {
+                    await fetchQuakes()
+                }
+            }
+            Spacer()
+            ToolbarStatus(
+                isLoading: isLoading,
+                lastUpdated: lastUpdated,
+                quakesCount: provider.quakes.count
+            )
+            Spacer()
+            if editMode == .active {
+                DeleteButton {
+                    deleteQuakes(for: selection)
+                }
+                .disabled(isLoading || selection.isEmpty)
+            }
+        }
     }
 }
 

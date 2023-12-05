@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0602A7612B1F15DC0054693C /* RefreshButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0602A7602B1F15DC0054693C /* RefreshButton.swift */; };
+		0602A7632B1F16260054693C /* ToolbarStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0602A7622B1F16260054693C /* ToolbarStatus.swift */; };
+		0602A7652B1F165A0054693C /* DeleteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0602A7642B1F165A0054693C /* DeleteButton.swift */; };
+		0602A7672B1F16EB0054693C /* EditButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0602A7662B1F16EB0054693C /* EditButton.swift */; };
 		065733192B19C75F00F2B92A /* EarthquakeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065733182B19C75F00F2B92A /* EarthquakeApp.swift */; };
 		0657331B2B19C75F00F2B92A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0657331A2B19C75F00F2B92A /* ContentView.swift */; };
 		0657331D2B19C76000F2B92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0657331C2B19C76000F2B92A /* Assets.xcassets */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0602A7602B1F15DC0054693C /* RefreshButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshButton.swift; sourceTree = "<group>"; };
+		0602A7622B1F16260054693C /* ToolbarStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarStatus.swift; sourceTree = "<group>"; };
+		0602A7642B1F165A0054693C /* DeleteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteButton.swift; sourceTree = "<group>"; };
+		0602A7662B1F16EB0054693C /* EditButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButton.swift; sourceTree = "<group>"; };
 		065733152B19C75F00F2B92A /* Earthquake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Earthquake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		065733182B19C75F00F2B92A /* EarthquakeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeApp.swift; sourceTree = "<group>"; };
 		0657331A2B19C75F00F2B92A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -162,6 +170,10 @@
 			children = (
 				06BCCB732B1DD59B00CE4CC1 /* SelectButton.swift */,
 				06BCCB7B2B1DD7A300CE4CC1 /* Quakes+Toolbar.swift */,
+				0602A7602B1F15DC0054693C /* RefreshButton.swift */,
+				0602A7622B1F16260054693C /* ToolbarStatus.swift */,
+				0602A7642B1F165A0054693C /* DeleteButton.swift */,
+				0602A7662B1F16EB0054693C /* EditButton.swift */,
 			);
 			path = ToolbarContent;
 			sourceTree = "<group>";
@@ -270,15 +282,19 @@
 				06BCCB6F2B1DD1EB00CE4CC1 /* QuakesProvider.swift in Sources */,
 				06BCCB6B2B1DD0F900CE4CC1 /* TestData.swift in Sources */,
 				0663308A2B1B6C8700733BF4 /* GeoJSON.swift in Sources */,
+				0602A7652B1F165A0054693C /* DeleteButton.swift in Sources */,
 				06BCCB682B1DCA4500CE4CC1 /* HTTPDataDownloader.swift in Sources */,
 				06BCCB6A2B1DCA7900CE4CC1 /* QuakeClient.swift in Sources */,
 				06BCCB712B1DD47200CE4CC1 /* Quakes.swift in Sources */,
+				0602A7632B1F16260054693C /* ToolbarStatus.swift in Sources */,
+				0602A7612B1F15DC0054693C /* RefreshButton.swift in Sources */,
 				0657332A2B19C7B300F2B92A /* QuakeError.swift in Sources */,
 				0663308C2B1CB74700733BF4 /* QuakeLocation.swift in Sources */,
 				06BCCB6D2B1DD10C00CE4CC1 /* TestDownloader.swift in Sources */,
 				06BCCB742B1DD59B00CE4CC1 /* SelectButton.swift in Sources */,
 				06BCCB762B1DD5D400CE4CC1 /* QuakeRow.swift in Sources */,
 				0657331B2B19C75F00F2B92A /* ContentView.swift in Sources */,
+				0602A7672B1F16EB0054693C /* EditButton.swift in Sources */,
 				06BCCB7A2B1DD68700CE4CC1 /* Quake+Color.swift in Sources */,
 				065733282B19C78100F2B92A /* Quake.swift in Sources */,
 				065733192B19C75F00F2B92A /* EarthquakeApp.swift in Sources */,
